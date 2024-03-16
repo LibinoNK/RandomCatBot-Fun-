@@ -12,7 +12,7 @@ load_dotenv(find_dotenv())
 
 from handlers.user_private import user_private_router
 from handlers.user_group import user_group_router
-from common.bot_cmds_list import private
+from commands.bot_cmds_list import private
 
 ALLOWED_UPDATES = ['message', 'edited_message']
 
